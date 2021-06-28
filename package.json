@@ -4,7 +4,8 @@
   "description": "Server side rendering (SSR) with React and Firebase.",
   "main": "index.js",
   "scripts": {
-    "webpack": "node_modules/.bin/webpack"
+    "webpack": "node_modules/.bin/webpack",
+    "build": "node_modules/.bin/webpack --mode production"
   },
   "author": "tns",
   "license": "MIT",
