@@ -4,5 +4,5 @@ import App from './App';
 import getFacts from './facts';
 
 getFacts().then(facts => {
-   render(<App facts="{facts}" />, document.querySelector('#root'));
+   render(<App facts={facts} />, document.querySelector('#root'));
 });
