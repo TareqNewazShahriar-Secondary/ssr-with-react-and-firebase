@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "ssr-with-react"
+    "default": "ssr-with-react",
+    "ssr-with-react": "ssr-with-react"
   }
 }

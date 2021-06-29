@@ -4,10 +4,10 @@
   "description": "Server side rendering (SSR) with React and Firebase.",
   "main": "index.js",
   "scripts": {
-    "webpack": "node_modules/.bin/webpack --mode development",
-    "build": "node_modules/.bin/webpack --mode production",
-    "babel": "node_modules/.bin/babel src -d functions/src && babel index.js -d functions",
-    "babel-2": "node_modules/.bin/babel index.js -d functions"
+    "webpack": "webpack --mode development",
+    "build": "webpack --mode production",
+    "firebase": "firebase serve --only functions,hosting",
+    "babel": "babel src -d functions/src && babel index.js -d functions && babel public/index.html --out-dir functions/public --copy-files"
   },
   "author": "tns",
   "license": "MIT",
